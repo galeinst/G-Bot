@@ -15,8 +15,8 @@
 <a href="https://t.me/ramubotspam"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
 ## PEMILIK REPO
-* **Landak** 🦔
-[<img src="https://giphy.com/gifs/dog-miss-Wj7lNjMNDxSmc">](https://t.me/maafgausahsokap)
+* **Gale** 🦔
+(https://t.me/Gstwne)
 
   
   
