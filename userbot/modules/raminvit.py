@@ -1,4 +1,4 @@
-# Ported By @VckyouuBitch 
+# Ported By @VckyouuBitch
 # Forked By @MaafGausahSokap
 # Copyright © Team RAM - UBOT
 # Hush Hush Sana ajg gausah kesini

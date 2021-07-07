@@ -43,7 +43,6 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-
 @register(outgoing=True, pattern="^.pings$")
 async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """

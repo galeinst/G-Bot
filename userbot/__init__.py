@@ -5,6 +5,9 @@
 # Ported @MaafGausahSokap / JANGAN DI APUS BABI
 """Userbot initialization."""
 
+from userbot import (
+    ALIVE_NAME
+)
 import os
 import time
 import re
@@ -214,7 +217,7 @@ ALIVE_LOGO = os.environ.get(
 
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/5daa73aa6d1afbd1da353.jpg"
+    "HELP_LOGO") or "https://telegra.ph/file/5daa73aa6d1afbd1da353.jpg"
 
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ramadh20"
@@ -399,14 +402,12 @@ ISAFK = False
 AFKREASON = None
 ZALG_LIST = {}
 
-#Import Userbot - Ported by RAMADHANI892
-from userbot import (
-    ALIVE_NAME
-)
+# Import Userbot - Ported by RAMADHANI892
 
 # ================= CONSTANT =================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 # ============================================
+
 
 def paginate_help(page_number, loaded_modules, prefix):
     number_of_rows = 5
@@ -414,9 +415,12 @@ def paginate_help(page_number, loaded_modules, prefix):
     helpable_modules = [p for p in loaded_modules if not p.startswith("_")]
     helpable_modules = sorted(helpable_modules)
     modules = [
-        custom.Button.inline("{} {} {} ".format(f"{EMOJI_HELP}", x, f"{EMOJI_HELP}"), data="ub_modul_{}".format(x))
-        for x in helpable_modules
-    ]
+        custom.Button.inline(
+            "{} {} {} ".format(
+                f"{EMOJI_HELP}",
+                x,
+                f"{EMOJI_HELP}"),
+            data="ub_modul_{}".format(x)) for x in helpable_modules]
     pairs = list(zip(modules[::number_of_cols],
                      modules[1::number_of_cols]))
     if len(modules) % number_of_cols == 1:
@@ -425,20 +429,15 @@ def paginate_help(page_number, loaded_modules, prefix):
     modulo_page = page_number % max_num_pages
     if len(pairs) > number_of_rows:
         pairs = pairs[
-            modulo_page * number_of_rows: number_of_rows * (modulo_page + 1)
-        ] + [
-            (
-                custom.Button.inline(
-                    "< ̤< ̤", data="{}_prev({})".format(prefix, modulo_page)
-                ),
-                custom.Button.inline(
-                    f"{EMOJI_HELP} 𝗖𝗟𝗢𝗦𝗘 {EMOJI_HELP}", data="{}_close({})".format(prefix, modulo_page)
-                ),
-                custom.Button.inline(
-                    "> ̤> ̤", data="{}_next({})".format(prefix, modulo_page)
-                )
-            )
-        ]
+            modulo_page * number_of_rows: number_of_rows * (
+                modulo_page + 1)] + [
+            (custom.Button.inline(
+                "< ̤< ̤", data="{}_prev({})".format(
+                    prefix, modulo_page)), custom.Button.inline(
+                        f"{EMOJI_HELP} 𝗖𝗟𝗢𝗦𝗘 {EMOJI_HELP}", data="{}_close({})".format(
+                            prefix, modulo_page)), custom.Button.inline(
+                                "> ̤> ̤", data="{}_next({})".format(
+                                    prefix, modulo_page)))]
     return pairs
 
 
@@ -453,7 +452,6 @@ with bot:
         dugmeler = CMD_HELP
         me = bot.get_me()
         uid = me.id
-
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
@@ -478,7 +476,6 @@ with bot:
                     "`You cannot send inline results in this chat (caused by SendInlineBotResultRequest)`"
                 )
 
-
         ramlogo = HELP_LOGO
         plugins = CMD_HELP
         vr = BOT_VER
@@ -491,15 +488,14 @@ with bot:
                     f"WOI NGENTOT [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN LU DI\n**RAM-UBOT**\nKALO MAU TAU LEBIH DETAIL MENDING LU KE\n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
                     buttons=[
                         [
-                             Button.url(f"{EMOJI_HELP} 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 {EMOJI_HELP}",
-                                        "t.me/Ramubotinfo"),
-                             Button.url(f"{EMOJI_HELP} 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 {EMOJI_HELP}",
-                                        "t.me/geezSupportGroup")],
-                             [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
-                                        "t.me/MaafGausahSokap")],
+                            Button.url(f"{EMOJI_HELP} 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 {EMOJI_HELP}",
+                                       "t.me/Ramubotinfo"),
+                            Button.url(f"{EMOJI_HELP} 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 {EMOJI_HELP}",
+                                       "t.me/geezSupportGroup")],
+                        [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
+                                    "t.me/MaafGausahSokap")],
                     ]
                 )
-
 
         @tgbot.on(events.NewMessage(pattern="/ping"))
         async def handler(event):
@@ -544,8 +540,7 @@ with bot:
                                 "https://github.com/ramadhani892/RAM-UBOT"),
                             custom.Button.url(
                                 "LANDAK",
-                                f"{OWNER_BOT}")] 
-                    ],
+                                f"{OWNER_BOT}")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
@@ -567,7 +562,6 @@ with bot:
                 reply_pop_up_alert = f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
-
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
                 data=re.compile(rb"helpme_close\((.+?)\)")
@@ -583,17 +577,16 @@ with bot:
                         [
                             Button.url(f"{REPO_NAME}",
                                        "t.me/ramubotinfo"),
-                            Button.url(f"{EMOJI_HELP} SUPPORT {EMOJI_HELP} ", 
+                            Button.url(f"{EMOJI_HELP} SUPPORT {EMOJI_HELP} ",
                                        "t.me/GeezSupportGroup")],
                         [Button.url(f"{EMOJI_HELP} OWNER {EMOJI_HELP} ",
                                     f"{OWNER_BOT}"),
                             Button.url(f"{EMOJI_HELP} INSTAGRAM {EMOJI_HELP} ",
-                                   f"{IG_ALIVE}")],
+                                       f"{IG_ALIVE}")],
                         [custom.Button.inline(
                             f"{EMOJI_HELP} 𝗘𝗫𝗜𝗧 {EMOJI_HELP}", b"close")],
-                       ]
+                    ]
                 )
-
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
@@ -612,7 +605,6 @@ with bot:
             else:
                 reply_pop_up_alert = f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
-
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
@@ -650,7 +642,6 @@ with bot:
         async def close(event):
             await event.edit("Menu di tutup!\nUntuk Melihat Menu, Silahkan Ketik `.rhelp`", buttons=Button.clear())
 
-
     except BaseException:
         LOGS.info(
             "Mode Inline Bot Mu Nonaktif. "
@@ -660,6 +651,5 @@ with bot:
     except BaseException:
         LOGS.info(
             "BOTLOG_CHATID Environment Variable Isn't a "
-            "Valid Entity. Please Check Your Environment variables/config.env File."
-        )
+            "Valid Entity. Please Check Your Environment variables/config.env File.")
         quit(1)

@@ -417,14 +417,12 @@ CMD_HELP.update(
         "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.notifon`"
         "\n↳ : Menghidupkan notifikasi pesan yang belum diterima."})
 
-CMD_HELP.update(
-    {
-        "pmprmit": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.set pm_msg` <balas ke pesan>"
-        "\n↳ : Menyetel Pesan Pribadimu untuk orang yang pesannya belum diterima"
-        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.get pm_msg`"
-        "\n↳ : Mendapatkan Custom pesan PM mu"
-        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.reset pm_msg`"
-        "\n↳ : Menghapus pesan PM ke default"
-        "\n\nPesan Pribadi yang belum diterima saat ini tidak dapat disetel"
-        "\nke teks format kaya bold, underline, link, dll."
-        "\nPesan akan terkirim normal saja"})
+CMD_HELP.update({"pmprmit": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.set pm_msg` <balas ke pesan>"
+                 "\n↳ : Menyetel Pesan Pribadimu untuk orang yang pesannya belum diterima"
+                 "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.get pm_msg`"
+                 "\n↳ : Mendapatkan Custom pesan PM mu"
+                 "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.reset pm_msg`"
+                 "\n↳ : Menghapus pesan PM ke default"
+                 "\n\nPesan Pribadi yang belum diterima saat ini tidak dapat disetel"
+                 "\nke teks format kaya bold, underline, link, dll."
+                 "\nPesan akan terkirim normal saja"})

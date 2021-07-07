@@ -34,9 +34,9 @@ async def help(rambot):
             string += "`" + str(i)
             string += f"`\t {EMOJI_HELP}  "
         await rambot.edit(f"**{REPO_NAME}**\n\n"
-                         f"**{EMOJI_HELP} 𝙿𝙴𝙼𝙸𝙻𝙸𝙺 𝙱𝙾𝚃 : {DEFAULTUSER}**\n**{EMOJI_HELP}  𝙼𝙾𝙳𝚄𝙻𝙴𝚂 : {len(modules)}**\n\n"
-                         f"**{EMOJI_HELP} 𝚂𝙴𝙼𝚄𝙰 𝙼𝙴𝙽𝚄 :**\n\n ══════════╣❃ ♕ ❃╠══════════\n\n"
-                         f"{EMOJI_HELP} {string}\n\n ══════════╣❃ ♕ ❃╠══════════\n\nNGETIK YANG BENER YA NGENTOOOOT!!\n\n")
+                          f"**{EMOJI_HELP} 𝙿𝙴𝙼𝙸𝙻𝙸𝙺 𝙱𝙾𝚃 : {DEFAULTUSER}**\n**{EMOJI_HELP}  𝙼𝙾𝙳𝚄𝙻𝙴𝚂 : {len(modules)}**\n\n"
+                          f"**{EMOJI_HELP} 𝚂𝙴𝙼𝚄𝙰 𝙼𝙴𝙽𝚄 :**\n\n ══════════╣❃ ♕ ❃╠══════════\n\n"
+                          f"{EMOJI_HELP} {string}\n\n ══════════╣❃ ♕ ❃╠══════════\n\nNGETIK YANG BENER YA NGENTOOOOT!!\n\n")
         await rambot.reply(f"\n**Contoh** : Ketik <`.help ping`> Untuk Informasi Pengunaan.\nJangan Lupa Berdoa Sebelum Mencoba wahahaha..")
         await asyncio.sleep(50)
         await rambot.delete()
