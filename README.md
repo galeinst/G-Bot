@@ -1,29 +1,22 @@
+<p align="center"><img src="https://images.cooltext.com/5540044.png" width="214" height="72" alt="G-BOT" /></a>
 
-<a href="https://cooltext.com"><img src="https://images.cooltext.com/5534665.png" width="350" height="81" alt="GAL-EBOT" /></a>
 
-<p align="center">
-  <a href="https://github.com/Zora24/Lord-Userbot/fork">
-    <img src="https://img.shields.io/github/forks/Zora24/Lord-Userbot?label=Fork&style=social">
-    
-  </a>
-  <a href="https://github.com/Zora24/Lord-Userbot">
-    <img src="https://img.shields.io/github/stars/Zora24/Lord-Userbot?style=social">
-  </a>
-</p>  
 
-# GAL-EBOT
-![GALE-BOT Logo](https://telegra.ph/file/f356e4b0dde6e3b9ed00c.jpg)
+<h3 align="Center">📍G-Bot Telegram Userbot📍 </h3>
 
-<h3 align="center">Repo Yang Terbentuk Dari Hasil Kegabutan</h3>
+![G-BOT Logo](https://telegra.ph/file/91ce871987e4b1a1a6326.jpg)
+
+<h3 align="center">Repo Yang terbuat Dari Hasil Gabut, Awas Rada Galak Bot nya😁</h3>
 <p align="center">&nbsp;</p>
 
-### Repo GAL-EBOT
-Repo Yang Dibuat [Gale](https://t.me/gstwne) Yang Ter-Inspirasi Dari Repo Userbot Github 
+
+### JANGAN LUPA JOIN GC YA HEHE
+<a href="https://t.me/ramubotinfo"><img src="https://img.shields.io/badge/Eufrosine-grey.svg?style=for-the-badge&logo=Telegram"></a>
 
 
-### CARA MENDAPATKAN STRING SESSON
+### CARA MENDAPATKAN STRING 
 
-[TEKAN DISINI](https://replit.com/@galeinst/string-session#main.py) Lalu tekan tombol play hijau dan lanjutkan
+<a href="https://https://replit.com/@galeinst/string-session#main.py"><img src="https://img.shields.io/badge/Tap-Here-orange?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
 
 ## Bagaimana Cara Deploy?
 
@@ -45,9 +38,12 @@ Repo Yang Dibuat [Gale](https://t.me/gstwne) Yang Ter-Inspirasi Dari Repo Userbo
 <p>
     <a href="https://t.me/gstwne" target="blank"><img src="https://img.shields.io/badge/@gstwne-30302f?style=flat&logo=telegram" /></a>
     <a href="https://instagram.com/Gstwn.77" target="blank"><img src="https://img.shields.io/badge/@gstwn.77_-30302f?style=flat&logo=instagram" /></a>
+    <a href="https://Xnxx.com/teen" target="blue"><img src="https://img.shields.io/badge/Dont-Open_-30302f?style=flat&logo=Youtube" /></a>
 </p>
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/galeinst/GAL-EBOT/tree/GAL-EBOT"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/galeinst/G-Bot/tree/G-Bot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-blue?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+
+<p align="center"><a href="https://www.gambaranimasi.org/cat-terima-kasih-466.htm"><img src="https://www.gambaranimasi.org/data/media/466/animasi-bergerak-terima-kasih-0019.gif" border="0" alt="animasi-bergerak-terima-kasih-0019" /></a>
 
 <br>
 </p>
@@ -59,4 +55,4 @@ TERIMAKASIH UNTUK
 *   [Zora24](https://github.com/Zora24) - Lord-Userbot
 *   [vckyou](https://github.com/vckyou) - Geez-UserBot
 *   [Kenzx23](https://github.com/kenzx23)
-*   DAN BANYAK LAGI 
+*   DAN BANYAK LAGI
