@@ -2,9 +2,9 @@
 
 on:
   push:
-    branches: [ G-Bot ]
+    branches: [ Gale ]
   pull_request:
-    branches: [ G-Bot ]
+    branches: [ Gale ]
 
 jobs:
   build:
