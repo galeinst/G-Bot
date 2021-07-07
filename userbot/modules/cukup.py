@@ -5,7 +5,7 @@ from userbot.events import register
 from userbot import CMD_HELP
 
 # Aku nambah kredit sdikit
-# rama ganteng bgt kan?
+# Yang baca kek Kekeyi
 # Port By @VckyouuBitch From GeezProject
 # Perkontolan Dengan Hapus Credits
 
