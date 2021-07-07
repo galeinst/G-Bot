@@ -25,7 +25,7 @@ async def help(rambot):
         if args in CMD_HELP:
             await rambot.edit(str(CMD_HELP[args]))
         else:
-            await rambot.edit("**`NGETIK YANG BENER NGENTOT!`**")
+            await rambot.edit("**`NGETIK PAAN SI TOLOL!`**")
             await asyncio.sleep(50)
             await rambot.delete()
     else:
@@ -37,6 +37,6 @@ async def help(rambot):
                           f"**{EMOJI_HELP} 𝙿𝙴𝙼𝙸𝙻𝙸𝙺 𝙱𝙾𝚃 : {DEFAULTUSER}**\n**{EMOJI_HELP}  𝙼𝙾𝙳𝚄𝙻𝙴𝚂 : {len(modules)}**\n\n"
                           f"**{EMOJI_HELP} 𝚂𝙴𝙼𝚄𝙰 𝙼𝙴𝙽𝚄 :**\n\n ══════════╣❃ ♕ ❃╠══════════\n\n"
                           f"{EMOJI_HELP} {string}\n\n ══════════╣❃ ♕ ❃╠══════════\n\nNGETIK YANG BENER YA NGENTOOOOT!!\n\n")
-        await rambot.reply(f"\n**Contoh** : Ketik <`.help ping`> Untuk Informasi Pengunaan.\nJangan Lupa Berdoa Sebelum Mencoba wahahaha..")
+        await rambot.reply(f"\n**Contoh** : Ketik <`.help ping`> Untuk Informasi Pengunaan.\nBaca Doa sebelum Mulai ya kawan..")
         await asyncio.sleep(50)
         await rambot.delete()
