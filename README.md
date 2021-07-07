@@ -15,9 +15,8 @@
 <a href="https://t.me/ramubotspam"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
 ## PEMILIK REPO
-* **Gale** 🦔
-(https://t.me/Gstwne)
-
+* **Gale** 
+[https://t.me/Gstwne]
   
   
   
