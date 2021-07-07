@@ -1,6 +1,6 @@
 {
   "name": "G-Bot",
-  "description": "[G-Bot] Userbot buat Seneng seneng doang kok.",
+  "description": "[G-Bot] userbot seneng seneng doang.",
   "logo": "https://telegra.ph/file/91ce871987e4b1a1a6326.jpg",
   "keywords": [
     "telegram",
@@ -11,7 +11,7 @@
   ],
   "repository": "https://github.com/galeinst/G-Bot",
   "telegram": "https://t.me/gstwne",
-  "success_url": "https://t.me/Efrsn",
+  "success_url": "https://t.me/teman_random",
   "stack": "container",
   "env": {
     "API_KEY": {
