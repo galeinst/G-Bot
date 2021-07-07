@@ -2,7 +2,7 @@
 
 
 
-<h3 align="Center">📍G-Bot Telegram Userbot📍  </h3>
+<h2align="Center">📍G-Bot Telegram Userbot📍  </h2>
 
 ![G-BOT Logo](https://telegra.ph/file/91ce871987e4b1a1a6326.jpg)
 
