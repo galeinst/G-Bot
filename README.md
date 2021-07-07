@@ -40,7 +40,7 @@ Repo Yang Dibuat [Gale](https://t.me/gstwne) Yang Ter-Inspirasi Dari Repo Userbo
 
   > Terakhir Hidupkan Dyno Lalu Check Logs (settings -> view logs) Jika Berhasil Enjoy :)
 ```
-* **Find Me On **
+* **FIND ME ON**
 
 <p>
     <a href="https://t.me/gstwne" target="blank"><img src="https://img.shields.io/badge/@gstwne-30302f?style=flat&logo=telegram" /></a>
@@ -58,4 +58,5 @@ TERIMAKASIH UNTUK
 *   [ramadhani892](https://github.com/ramadhani892) - RAM-UBOT
 *   [Zora24](https://github.com/Zora24) - Lord-Userbot
 *   [vckyou](https://github.com/vckyou) - Geez-UserBot
+*   [Kenzx23](https://github.com/kenzx23)
 *   DAN BANYAK LAGI 
