@@ -15,7 +15,7 @@
 <a href="https://t.me/ramubotspam"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
 
-  * **Gale** (https://t.me/gstwne)
+  * **Gale** *(https://t.me/gstwne)
   
   
   
