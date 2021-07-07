@@ -2,7 +2,7 @@
 # Port By @Vckyouuu
 # Piki mintaa yaaa
 # Mks sm sm
-# Rama ganteng mks sm sm
+# Yang Ngedit Mati yahaha wahyu
 
 
 from telethon.errors import ChatSendInlineForbiddenError, ChatSendStickersForbiddenError
