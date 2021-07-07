@@ -40,11 +40,11 @@ NO_ADMIN = "`Maaf Anda Bukan Admin:)`"
 NO_PERM = "`Maaf Anda Tidak Mempunyai Izin!`"
 NO_SQL = "`Berjalan Pada Mode Non-SQL`"
 
-CHAT_PP_CHANGED = "`Berhasil Mengubah Profil Gru anjing`"
+CHAT_PP_CHANGED = "`Berhasil Mengubah Profil Grup anjing`"
 CHAT_PP_ERROR = (
-    "`Ada Masalah Dengan Memperbarui Foto,`"
-    "`Mungkin Karna Anda Bukan Admin,`"
-    "`Atau Tidak Mempunyai Izin.`"
+    "`Gabisa Ganti PP Cok,`"
+    "`Lu bukan Admin Kali tot,`"
+    "`Lu Gapunya Izin .`"
 )
 INVALID_MEDIA = "`Media Tidak Valid`"
 
@@ -134,7 +134,7 @@ async def promote(promt):
         pin_messages=True,
     )
 
-    await promt.edit("`Kita tambah admin dulu gess!!`")
+    await promt.edit("`Ada Admin Baru Tot!!`")
     user, rank = await get_user_from_event(promt)
     if not rank:
         rank = "Admin"  # Just in case.
@@ -144,7 +144,7 @@ async def promote(promt):
     # Try to promote if current user is admin or creator
     try:
         await promt.client(EditAdminRequest(promt.chat_id, user.id, new_rights, rank))
-        await promt.edit("`Udah di Promote Jangan Semena mena Ya admin baru!`")
+        await promt.edit("`Gosah Aneh Aneh jing kalo masih baru hehe!`")
         await sleep(5)
         await promt.delete()
 
@@ -158,7 +158,7 @@ async def promote(promt):
         await promt.client.send_message(
             BOTLOG_CHATID,
             "#PROMOSI\n"
-            f"PENGGUNA: [{user.first_name}](tg://user?id={user.id})\n"
+            f"Sijamet: [{user.first_name}](tg://user?id={user.id})\n"
             f"GRUP: {promt.chat.title}(`{promt.chat_id}`)",
         )
 
@@ -174,7 +174,7 @@ async def demote(dmod):
         return await dmod.edit(NO_ADMIN)
 
     # If passing, declare that we're going to demote
-    await dmod.edit("`Otw Hapus Admin dulu ges...`")
+    await dmod.edit("`Kita Demote Dulu kawan...`")
     rank = "Admin"  # dummy rank, lol.
     user = await get_user_from_event(dmod)
     user = user[0]
@@ -198,7 +198,7 @@ async def demote(dmod):
     # Assume we don't have permission to demote
     except BadRequestError:
         return await dmod.edit(NO_PERM)
-    await dmod.edit("`Admin Berhasil Dilepas! Makanya Jangan semena mena tolol`")
+    await dmod.edit("`Admin Berhasil Dilepas! Makanya Berguna dikit Tol`")
     await sleep(5)
     await dmod.delete()
 
@@ -207,7 +207,7 @@ async def demote(dmod):
         await dmod.client.send_message(
             BOTLOG_CHATID,
             "#MENURUNKAN\n"
-            f"PENGGUNA: [{user.first_name}](tg://user?id={user.id})\n"
+            f"Sijamet: [{user.first_name}](tg://user?id={user.id})\n"
             f"GRUP: {dmod.chat.title}(`{dmod.chat_id}`)",
         )
 
@@ -228,7 +228,7 @@ async def ban(bon):
         return
 
     # Announce that we're going to whack the pest
-    await bon.edit("`Kita banned Jamet dulu gess`")
+    await bon.edit("`Gua banned Lu asu`")
 
     try:
         await bon.client(EditBannedRequest(bon.chat_id, user.id, BANNED_RIGHTS))
@@ -260,7 +260,7 @@ async def ban(bon):
         await bon.client.send_message(
             BOTLOG_CHATID,
             "#BAN\n"
-            f"PENGGUNA: [{user.first_name}](tg://user?id={user.id})\n"
+            f"Sijamet: [{user.first_name}](tg://user?id={user.id})\n"
             f"GRUP: {bon.chat.title}(`{bon.chat_id}`)",
         )
 
@@ -277,7 +277,7 @@ async def nothanos(unbon):
         return await unbon.edit(NO_ADMIN)
 
     # If everything goes well...
-    await unbon.edit("`Kita Unban gess, Kasian...`")
+    await unbon.edit("`Iya gua ampunin elu su...`")
 
     user = await get_user_from_event(unbon)
     user = user[0]
@@ -294,7 +294,7 @@ async def nothanos(unbon):
             await unbon.client.send_message(
                 BOTLOG_CHATID,
                 "#UNBAN\n"
-                f"PENGGUNA: [{user.first_name}](tg://user?id={user.id})\n"
+                f"Sijamet: [{user.first_name}](tg://user?id={user.id})\n"
                 f"GRUP: {unbon.chat.title}(`{unbon.chat_id}`)",
             )
     except UserIdInvalidError:
@@ -326,29 +326,29 @@ async def spider(spdr):
 
     if user.id == self_user.id:
         return await spdr.edit(
-            "`Tangan Terlalu Pendek, Tidak Bisa Membisukan Diri Sendiri...\n(ヘ･_･)ヘ┳━┳`"
+            "`Ya gabisa ngemut diri sendiri , ngotak dong pantek`"
         )
 
     # If everything goes well, do announcing and mute
-    await spdr.edit("`Telah Dibisukan!`")
+    await spdr.edit("`Telah Diemut!`")
     if mute(spdr.chat_id, user.id) is False:
-        return await spdr.edit("`Error! Pengguna Sudah Dibisukan.`")
+        return await spdr.edit("`Error! Jamet Telah di emut.`")
     else:
         try:
             await spdr.client(EditBannedRequest(spdr.chat_id, user.id, MUTE_RIGHTS))
 
             # Announce that the function is done
             if reason:
-                await spdr.edit(f"**Telah Dibisukan!**\n**Alasan:** `{reason}`")
+                await spdr.edit(f"**Sudah di emut!**\n**Alasan:** `{reason}`")
             else:
-                await spdr.edit("`Telah Dibisukan!`")
+                await spdr.edit("`sudah Di emut!`")
 
             # Announce to logging group
             if BOTLOG:
                 await spdr.client.send_message(
                     BOTLOG_CHATID,
                     "#MUTE\n"
-                    f"PENGGUNA: [{user.first_name}](tg://user?id={user.id})\n"
+                    f"Sijamet: [{user.first_name}](tg://user?id={user.id})\n"
                     f"GRUP: {spdr.chat.title}(`{spdr.chat_id}`)",
                 )
         except UserIdInvalidError:
@@ -380,12 +380,12 @@ async def unmoot(unmot):
         return
 
     if unmute(unmot.chat_id, user.id) is False:
-        return await unmot.edit("`Kesalahan! Pengguna Sudah Tidak Dibisukan.`")
+        return await unmot.edit("`Kesalahan! Pengguna sudah tidak di emut.`")
     else:
 
         try:
             await unmot.client(EditBannedRequest(unmot.chat_id, user.id, UNBAN_RIGHTS))
-            await unmot.edit("```Berhasil Melakukan Unmute! Pengguna Sudah Tidak Lagi Dibisukan```")
+            await unmot.edit("```Berhasil Melakukan Unmute! Pengguna sudah tidak di emut```")
             await sleep(3)
             await unmot.delete()
         except UserIdInvalidError:
@@ -395,7 +395,7 @@ async def unmoot(unmot):
             await unmot.client.send_message(
                 BOTLOG_CHATID,
                 "#UNMUTE\n"
-                f"PENGGUNA: [{user.first_name}](tg://user?id={user.id})\n"
+                f"Sijamet: [{user.first_name}](tg://user?id={user.id})\n"
                 f"GRUP: {unmot.chat.title}(`{unmot.chat_id}`)",
             )
 
@@ -518,7 +518,7 @@ async def rm_deletedacc(show):
 
     con = show.pattern_match.group(1).lower()
     del_u = 0
-    del_status = "`Tidak Menemukan Akun Terhapus, Grup Bersih`"
+    del_status = "`Tidak Menemukan Akun Mati,Gc steril`"
 
     if con != "clean":
         await show.edit("`Mencari Akun Hantu/Terhapus/Zombie...`")
@@ -657,9 +657,9 @@ async def kick(usr):
 
     user, reason = await get_user_from_event(usr)
     if not user:
-        return await usr.edit("`Tidak Dapat Menemukan Pengguna.`")
+        return await usr.edit("`Ga ada Orangnya Cok.`")
 
-    await usr.edit("`Melakukan Kick....`")
+    await usr.edit("`Mulai Menendang....`")
 
     try:
         await usr.client.kick_participant(usr.chat_id, user.id)
@@ -669,10 +669,10 @@ async def kick(usr):
 
     if reason:
         await usr.edit(
-            f"[{user.first_name}](tg://user?id={user.id}) **Telah Dikick Dari Grup**\n**Alasan:** `{reason}`"
+            f"[{user.first_name}](tg://user?id={user.id}) **Yahaha di kick lu ama gua**\n**Alasan:** `{reason}`"
         )
     else:
-        await usr.edit(f"[{user.first_name}](tg://user?id={user.id}) **Telah Dikick Dari Grup**")
+        await usr.edit(f"[{user.first_name}](tg://user?id={user.id}) **Mampus Di kick Dari Grup**")
         await sleep(5)
         await usr.delete()
 
@@ -680,7 +680,7 @@ async def kick(usr):
         await usr.client.send_message(
             BOTLOG_CHATID,
             "#KICK\n"
-            f"PENGGUNA: [{user.first_name}](tg://user?id={user.id})\n"
+            f"SIJAMET: [{user.first_name}](tg://user?id={user.id})\n"
             f"GRUP: {usr.chat.title}(`{usr.chat_id}`)\n",
         )
 
