@@ -46,4 +46,3 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("`Yahaha wagyu`")
 # Create by myself @localheart
-
