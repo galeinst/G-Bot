@@ -53,5 +53,6 @@ Atau Bisa tanyakan Kepada Owner Jika mengalami Kesulitan [TEKAN DISINI](https://
 TERIMAKASIH UNTUK
 
 *   [ramadhani892](https://github.com/ramadhani892)-RAM-UBOT
-
+*   [Zora24](https://github.com/Zora24) -Lord-Userbot
+*   [vckyou](https://github.com/vckyou)-Geez-UserBot
 *   DAN BANYAK LAGI 
