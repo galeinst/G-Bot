@@ -2,9 +2,9 @@
 
 on:
   push:
-    branches: [ RAM-UBOT ]
+    branches: [ Gale ]
   pull_request:
-    branches: [ RAM-UBOT ]
+    branches: [ Gale ]
 
 jobs:
   build:
