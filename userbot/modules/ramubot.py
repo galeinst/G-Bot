@@ -28,43 +28,37 @@ async def typewriter(typew):
                      "\n**Permisi Aku mau nimbrung Kk..**")
 
 
-@register(outgoing=True, pattern='^.geez(?: |$)(.*)')
+@register(outgoing=True, pattern='^.efr(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Vicky Peler☑️**")
-    await typew.edit("**Vicky Peler✅**")
+    await typew.edit("**MAJUJ JELEK🤪**")
     sleep(1)
-    await typew.edit("**Toni Gilaa☑️**")
-    await typew.edit("**Toni Gilaa✅**")
+    await typew.edit("**MICIN APALAGI🤪**")
     sleep(2)
-    await typew.edit("**Karina Depresi☑️**")
-    await typew.edit("**Karina Depresi✅**")
+    await typew.edit("**ONET STRESS😁**")
     sleep(2)
-    await typew.edit("**Yunus Gajelas☑️**")
-    await typew.edit("**Yunus Gajelas✅**")
+    await typew.edit("**BALE PEDOFIL😱**")
     sleep(2)
-    await typew.edit("**Adel GJM!☑️**")
-    await typew.edit("**Adel GJM!✅**")
+    await typew.edit("**ABEL CANTIK**")
     sleep(2)
-    await typew.edit("**Jia GJB!☑️**")
-    await typew.edit("**Jia GJB!✅**")
+    await typew.edit("**GITA JUGA**")
     sleep(2)
-    await typew.edit("**Imeh,MengRibet☑️**")
-    await typew.edit("**Imeh,MengRibet✅**")
+    await typew.edit("**SYILA APALAGI**")
     sleep(2)
-    await typew.edit("**Jeje,Mengintil☑️**")
-    await typew.edit("**Jeje,Mengintil✅**")
+    await typew.edit("**NAFLA JUGA**")
     sleep(3)
-    await typew.edit("**CUMA RAMA YANG BENER!**")
+    await typew.edit("**TAPI BOONG YAHAHA WAGYU!**")
+    sleep(3)
+    await typew.edit("**GALE DOANG YANG GANTENG😎**")
 
 # Create by myself @localheart
 
 CMD_HELP.update({
-    "rambot":
-    "`.rambot`\
+    "gbot":
+    "`.gbot`\
     \nUsage: menampilkan alive bot.\
     \n\n`.sadboy`\
     \nUsage: hiks\
-    \n\n`.punten` ; `.geez`\
+    \n\n`.punten` ; `.efr`\
     \nUsage: misi."
 })
