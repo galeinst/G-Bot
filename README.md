@@ -23,7 +23,7 @@ Repo Yang Dibuat [Gale](https://t.me/gstwne) Yang Ter-Inspirasi Dari Repo Userbo
 
 ### CARA MENDAPATKAN STRING SESSON
 
-[TEKAN DISINI](https://replit.com/@AL241/String-Sesson-Lord#pyproject.toml) Lalu tekan tombol play hijau dan lanjutkan
+[TEKAN DISINI](https://replit.com/@galeinst/string-session#main.py) Lalu tekan tombol play hijau dan lanjutkan
 
 ## Bagaimana Cara Deploy?
 
