@@ -176,5 +176,5 @@ CMD_HELP.update({
 \n\nG\
 \nUsage: Liat Sendiri.
 \n\nWB
-    \nUsage: Wibu."
+\nUsage: Wibu."
 })
