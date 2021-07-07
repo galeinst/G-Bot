@@ -175,6 +175,6 @@ CMD_HELP.update({
 \nUsage: Tukang maenin bot.\
 \n\nG\
 \nUsage: Liat Sendiri.
-\n\nWB
+\n\nWB\
 \nUsage: Wibu."
 })
