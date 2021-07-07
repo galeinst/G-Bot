@@ -40,9 +40,12 @@ Repo Yang Dibuat [Gale](https://t.me/gstwne) Yang Ter-Inspirasi Dari Repo Userbo
 
   > Terakhir Hidupkan Dyno Lalu Check Logs (settings -> view logs) Jika Berhasil Enjoy :)
 ```
-Atau Bisa tanyakan Kepada Owner Jika mengalami Kesulitan [TEKAN DISINI](https://t.me/gstwne)
-## <p align="center">DEPLOY GAL-EBOT</p>
+* **Find Me On **
 
+<p>
+    <a href="https://t.me/gstwne" target="blank"><img src="https://img.shields.io/badge/@gstwne-30302f?style=flat&logo=telegram" /></a>
+    <a href="https://instagram.com/Ghalih Setiawan" target="blank"><img src="https://img.shields.io/badge/@gstwn.77_-30302f?style=flat&logo=instagram" /></a>
+</p>
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/galeinst/GAL-EBOT/tree/GAL-EBOT"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
