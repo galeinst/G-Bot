@@ -44,7 +44,7 @@ Repo Yang Dibuat [Gale](https://t.me/gstwne) Yang Ter-Inspirasi Dari Repo Userbo
 
 <p>
     <a href="https://t.me/gstwne" target="blank"><img src="https://img.shields.io/badge/@gstwne-30302f?style=flat&logo=telegram" /></a>
-    <a href="https://instagram.com/Ghalih Setiawan" target="blank"><img src="https://img.shields.io/badge/@gstwn.77_-30302f?style=flat&logo=instagram" /></a>
+    <a href="https://instagram.com/Gstwn.77" target="blank"><img src="https://img.shields.io/badge/@gstwn.77_-30302f?style=flat&logo=instagram" /></a>
 </p>
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/galeinst/GAL-EBOT/tree/GAL-EBOT"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
