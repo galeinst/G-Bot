@@ -1,55 +1,50 @@
-<a href="https://www.instagram.com/ramadh20?r=nametag"><img src="https://images.cooltext.com/5537105.png" width="320" height="211" alt="  RAM-UBOT" /></a>
+
+<a href="https://cooltext.com"><img src="https://images.cooltext.com/5534665.png" width="350" height="81" alt="GAL-EBOT" /></a>
 
 <p align="center">
-  <a href="https://github.com/ramadhani892/RAM-UBOT/fork">
-    <img src="https://img.shields.io/github/forks/ramadhani892/RAM-UBOT?label=Fork&style=social">
+  <a href="https://github.com/Zora24/Lord-Userbot/fork">
+    <img src="https://img.shields.io/github/forks/Zora24/Lord-Userbot?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/ramadhani892/RAM-UBOT">
-    <img src="https://img.shields.io/github/stars/ramadhani892/RAM-UBOT?style=social">
+  <a href="https://github.com/Zora24/Lord-Userbot">
+    <img src="https://img.shields.io/github/stars/Zora24/Lord-Userbot?style=social">
   </a>
 </p>  
 
-![VIEWS](https://komarev.com/ghpvc/?username=ramadhani892)
+# GAL-EBOT
+![GALE-BOT Logo](https://telegra.ph/file/f356e4b0dde6e3b9ed00c.jpg)
 
-<a href="https://t.me/ramubotspam"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
-
-
-  * **Gale** *(https://t.me/gstwne)
-  
-  
-  
-# KALO FORK TUH KASIH BINTANG YA TOLOL!
-
-
-### JOIN DULU TOT!!:
-
-<a href="https://t.me/ramubotinfo"><img src="https://img.shields.io/badge/Channel%20RAM%20UBOT-red.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/teman_random"><img src="https://img.shields.io/badge/Join-TEMAN%20RANDOM-purple.svg?style=for-the-badge&logo=Telegram"></a>
-
-## Penjelasan:
-* **Repo Nya toxic, Gajelas pokoknya mah.** 
-[<img src="https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg">](https://t.me/ootspambott)
-
-
-<h3 align="center">REPO RAM UBOT DIBUAT KARNA YAA MEMANG PENGEN DIBUAT WKWKWK.</h3>
+<h3 align="center">Repo Yang Terbentuk Dari Hasil Kegabutan</h3>
 <p align="center">&nbsp;</p>
 
-### <a href="https://t.me/ootspambot"><img src="https://img.shields.io/badge/GROUP%20SPAM%20RAM%20UBOT-blue?style=flat&logo=Telegram" width="250" height="40.100" />
+### Repo GAL-EBOT
+Repo Yang Dibuat [Gale](https://t.me/gstwne) Yang Ter-Inspirasi Dari Repo Userbot Github 
 
+
+### CARA MENDAPATKAN STRING SESSON
+
+[TEKAN DISINI](https://replit.com/@AL241/String-Sesson-Lord#pyproject.toml) Lalu tekan tombol play hijau dan lanjutkan
 
 ## Bagaimana Cara Deploy?
 
+```
+* **CARA DEPLOY** 🔧
 
-* **VIDEO TUTORIAL DEPLOY!** 🔧
-[<img src="https://media.giphy.com/media/XD4BoRtenzE1eTIHzZ/giphy.gif">](https://t.me/UserbotChannel/36)
+  > Pertama Dapatkan API_KE & API_HASH Di my.telegram.org (Wajib)
 
-### AMBIL STRING DI BAWAH INI:
+  > Dapatkan String Session Di Termux (Wajib)
 
-##
-[![RAM-UBOT-STRING](https://replit.com/badge/github/@ramadhani892/RAM-UBOT)](https://replit.com/@ramadhani892/RAM-UBOT-STRING)
-##
-<a href="https://heroku.com/deploy?template=https://github.com/ramadhani892/RAM-UBOT.git"><img src="https://img.shields.io/badge/DEPLOY%20RAM%20UBOT%20DI%20HEROKU-red?style=flat&logo=Heroku" width="325" height="50.100" />
+  > Next Tekan Tombol Deploy Dibawah
+
+  > Isi Datanya Lalu Tekan Deploy Lagi
+
+  > Terakhir Hidupkan Dyno Lalu Check Logs (settings -> view logs) Jika Berhasil Enjoy :)
+```
+Atau Bisa tanyakan Kepada Owner Jika mengalami Kesulitan [TEKAN DISINI](https://t.me/gstwne)
+## <p align="center">DEPLOY GAL-EBOT</p>
+
+
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/galeinst/GAL-EBOT/tree/GAL-EBOT"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
@@ -57,7 +52,17 @@
 ## Credit
 TERIMAKASIH UNTUK
 
-*   [VICKY](https://t.me/vckyouubitch) - ⚡Geez-Userbot⚡
-*   [KOALA](https://t.me/manusiarakitann) - KAMPANG BOT
-*   [TEAMULTROID](https://github.com/TeamUltroid) - ULTROID
-*    DAN MASIH BANYAK LAGI TOT
+*   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
+*   [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
+*   [Mkaraniya](https://github.com/mkaraniya) & [Dev73](https://github.com/Devp73) - OpenUserBot
+*   [Mr.Miss](https://github.com/keselekpermen69) - UserButt
+*   [adekmaulana](https://github.com/adekmaulana) - ProjectBish
+*   [MoveAngel](https://github.com/MoveAngel) - One4uBot
+*   [AidilAryanto](https://github.com/aidilaryanto) - ProjectDils 
+*   [Alfianandaa](https://github.com/alfianandaa/ProjectAlf) - ProjectAlf
+*   [AnggaR69s](https://github.com/GengKapak/DCLXVI) - DCLXVI
+*   [kandnub](https://github.com/kandnub) - TG-UserBot
+*   [༺αиυвιѕ༻](https://github.com/Dark-Princ3) - X-tra-Telegram
+*   [Sahyam2019](https://github.com/sahyam2019/oub-remix) - oub-remix
+*   [TeamUserge](https://github.com/UsergeTeam/Userge) - Userge
+*   DAN BANYAK LAGI 
