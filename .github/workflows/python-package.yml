@@ -2,9 +2,9 @@
 
 on:
   push:
-    branches: [ Gale ]
+    branches: [ G-Bot ]
   pull_request:
-    branches: [ Gale ]
+    branches: [ G-Bot ]
 
 jobs:
   build:
@@ -34,4 +34,4 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-[![Python package](https://github.com/ramadhani892/RAM-UBOT/actions/workflows/python-package.yml/badge.svg?branch=RAM-UBOT&event=workflow_dispatch)](https://github.com/ramadhani892/RAM-UBOT/actions/workflows/python-package.yml)
+[![Python package](https://github.com/galeinst/G-Bot/actions/workflows/python-package.yml/badge.svg?branch=G-Bot&event=workflow_dispatch)](https://github.com/galeinst/G-Bot/actions/workflows/python-package.yml)
