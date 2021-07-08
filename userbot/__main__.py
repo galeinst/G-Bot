@@ -27,7 +27,7 @@ for module_name in ALL_MODULES:
 
 
 LOGS.info(
-    f"📍G-BOT 🔥 V7.0 [AKTIF YA ASU!!!!]")
+    f"📍G-BOT🔥 V7.0 [AKTIF YA ASU!!!!]")
 
 
 if len(argv) not in (1, 3, 4):
