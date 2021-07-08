@@ -28,7 +28,7 @@ jobs:
         with:
           commit_message: 'pylint: auto fixes'
           commit_options: '--no-verify --signoff'
-          repository: .
+          repository: G-Bot
           commit_user_name: galeinst
           commit_user_email: grft.mkr@gmail.com
           commit_author: galeinst <grft.mkr@gmail.com>
